@@ -15,8 +15,13 @@
   "author": "Bill Mortimer",
   "license": "ISC",
   "babel": {
-    "presets": ["@babel/preset-env", "@babel/preset-react"],
-    "plugins": ["@babel/plugin-transform-react-jsx"]
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      "@babel/plugin-transform-react-jsx"
+    ]
   },
   "bugs": {
     "url": "https://github.com/billmortimer/hrr36-fec-bill-proxy/issues"
@@ -33,6 +38,7 @@
   },
   "dependencies": {
     "react": "^16.8.2",
-    "react-dom": "^16.8.2"
+    "react-dom": "^16.8.2",
+    "request": "^2.88.0"
   }
 }
