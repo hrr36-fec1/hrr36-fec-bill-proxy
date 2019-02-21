@@ -1,0 +1,38 @@
+{
+  "name": "hrr36-fec-bill-proxy",
+  "version": "1.0.0",
+  "description": "Proxy for combined Betacritic modules",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/server.js",
+    "wp-dev": "webpack-dev-server --config ./webpack.config.js --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/billmortimer/hrr36-fec-bill-proxy.git"
+  },
+  "author": "Bill Mortimer",
+  "license": "ISC",
+  "babel": {
+    "presets": ["@babel/preset-env", "@babel/preset-react"],
+    "plugins": ["@babel/plugin-transform-react-jsx"]
+  },
+  "bugs": {
+    "url": "https://github.com/billmortimer/hrr36-fec-bill-proxy/issues"
+  },
+  "homepage": "https://github.com/billmortimer/hrr36-fec-bill-proxy#readme",
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.0"
+  },
+  "dependencies": {
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2"
+  }
+}
